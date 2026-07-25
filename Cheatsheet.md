@@ -87,10 +87,10 @@ cat some-file > output.txt # Pipe output of cat into a file using >
 
 `git revert`: Undo a commit by making exactly opposite changes
 
-`git restore`: Undo changes which aren’t staged/committed, or use with --staged to unstage changes you’ve added
+`git restore`: Undo changes which aren’t staged/committed, or use with `--staged` to unstage changes you’ve added
 
 `git stash`: Save current untracked changes, but remove them from the working directory. The changes are pushed to a stack, and can be added back with `git stash apply`
 
 `git log`: View the commit history
 
-`git rebase`: Edit the commit history. Include the --interactive flag to manually edit the history, and specify the remote and branch name or commit to rebase on a specific commit.
+`git rebase`: Edit the commit history. Include the `--interactive` flag to manually edit the history, and specify the remote and branch name or commit to rebase on a specific commit.
